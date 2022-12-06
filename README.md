@@ -1,5 +1,5 @@
 # Nuxt3-Matomo
-Tutorial and code to add Matomo to a nuxt 3 project
+Tutorial and code to add Matomo to a nuxt 3 project (very easy)
 
 ## 1 add Vue Matomo
 in your terminal enter the following command
@@ -28,7 +28,12 @@ export default defineNuxtPlugin((nuxtApp) => {
 })
 ```
 
-## 3 register your plugin to your Nuxt app 
+## 3 change the Matomo server address 
+
+change the line **host: 'https://your-matomo-domain-address.com',**
+
+
+## 4 register your plugin to your Nuxt app 
 file **nuxt.config.ts**
 ```
 export default ({
