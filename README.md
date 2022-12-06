@@ -8,7 +8,7 @@ npm install --save vue-matomo
 ```
 
 ## 2 add Nuxt plugin
-Add file your-project/**plugin/super-matomo-plugin.js** to the project with this :
+Add file your-project/**plugins/super-matomo-plugin.js** to the project with this :
 ```
 import { defineNuxtPlugin } from '#app'
 import VueMatomo from 'vue-matomo'
