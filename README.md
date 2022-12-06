@@ -49,11 +49,11 @@ export default ({
     }}, 
 
   plugins: [
-    { src: '~/plugins/matomo-ana.js', ssr: false }
+    { src: '~/plugins/super-matomo-plugin.js', ssr: false }
   ],
 
 })
 ```
 
-That it
+That it, your are a boss
 
