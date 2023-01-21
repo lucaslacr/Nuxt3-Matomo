@@ -27,6 +27,8 @@ export default defineNuxtPlugin((nuxtApp) => {
   })
 })
 ```
+**If you are using Server Side Rendering** (SSR) you have to add '.client' in your file name.
+exemple : your-project/plugins/super-matomo-plugin**.client.ts**
 
 ## 3 change the Matomo server address 
 
