@@ -29,34 +29,15 @@ export default defineNuxtPlugin((nuxtApp) => {
 ```
 **If you are using Server Side Rendering** (SSR) you have to add '.client' in your file name.
 
-exemple : your-project/plugins/super-matomo-plugin.client.ts
+exemple : your-project/plugins/super-matomo-plugin.client.js
 
 ## 3 change the Matomo server address 
 
 change the line **host: 'https://your-matomo-domain-address.com',**
 
 
-## 4 register your plugin to your Nuxt app 
-file **nuxt.config.ts**
-```
-export default ({
-    app: {
-   head: {
-      title: 'Bonjour', 
-      htmlAttrs: {
-          lang: 'fr'
-      },
-      meta: [
-          { charset: 'utf-8' }
-      ]
-    }}, 
-
-  plugins: [
-    { src: '~/plugins/super-matomo-plugin.js', ssr: false }
-  ],
-
-})
-```
+## 4 register your plugin 
+Nuxt 3 auto-import your plugin, so it's done
 
 That it, your are a boss
 
